@@ -1,6 +1,6 @@
 {
-  "name": "@sreworks-starter/widget-cli",
-  "version": "0.0.0-alpha.13",
+  "name": "@sreworks/widget-cli",
+  "version": "0.0.0-alpha.0",
   "description": "",
   "keywords": [],
   "license": "Apache-2.0",

@@ -1,6 +1,6 @@
 {
-  "name": "@sreworks-starter/framework",
-  "version": "0.0.0-alpha.13",
+  "name": "@sreworks/framework",
+  "version": "0.0.0-alpha.0",
   "description": "",
   "keywords": [],
   "license": "Apache-2.0",
@@ -12,7 +12,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@sreworks-starter/shared-utils": "^0.0.0-alpha.13"
+    "@sreworks/shared-utils": "^0.0.0-alpha.0"
   },
   "devDependencies": {
     "@babel/cli": "7.18.10",
