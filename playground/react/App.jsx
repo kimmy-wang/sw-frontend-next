@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Loading } from '@sreworks/components'
 import Dummy from './components/Dummy?qs-should-not-break-plugin-react'
 
-import '@sreworks/components/es/Loading/index.css'
+import '@sreworks/components/es/loading/style/index.css'
 
 function App() {
   const [count, setCount] = useState(0)
