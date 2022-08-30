@@ -19366,19 +19366,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@workspace:playground/react":
-  version: 0.0.0-use.local
-  resolution: "react@workspace:playground/react"
-  dependencies:
-    "@sreworks/components": ^0.0.0-alpha.0
-    "@vitejs/plugin-react": 2.0.1
-    react: 17.0.2
-    react-dom: 17.0.2
-    vite: 3.0.9
-    vite-plugin-style-import: 1.4.1
-  languageName: unknown
-  linkType: soft
-
 "read-cmd-shim@npm:^3.0.0":
   version: 3.0.1
   resolution: "read-cmd-shim@npm:3.0.1"
@@ -22790,6 +22777,19 @@ __metadata:
   checksum: 6341aa43579ae45f8a383bdc0c5041dea3dff98f14e0a546d6d884a864134b00082246a28d1de8adff0ce0dd92b468c7ade8f972ffe1ed97258671d63e0f16f7
   languageName: node
   linkType: hard
+
+"vite@workspace:playground/vite":
+  version: 0.0.0-use.local
+  resolution: "vite@workspace:playground/vite"
+  dependencies:
+    "@sreworks/components": ^0.0.0-alpha.0
+    "@vitejs/plugin-react": 2.0.1
+    react: 17.0.2
+    react-dom: 17.0.2
+    vite: 3.0.9
+    vite-plugin-style-import: 1.4.1
+  languageName: unknown
+  linkType: soft
 
 "vm-browserify@npm:^1.0.1":
   version: 1.1.2
