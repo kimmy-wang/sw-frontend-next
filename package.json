@@ -15,7 +15,7 @@
     "build:all": "yarn workspaces foreach run build",
     "test": "jest",
     "postinstall": "husky install",
-    "lint": "prettier --write \"**/src/*.js?(x)\"",
+    "lint": "prettier --write \"**/src/**/*.js?(x)\"",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
