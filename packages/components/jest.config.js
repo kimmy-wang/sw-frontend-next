@@ -7,6 +7,7 @@ module.exports = {
     '^.+\\.jsx?$': 'babel-jest',
     '.+\\.(css|styl|less|sass|scss)$': 'jest-css-modules-transform',
   },
+  transformIgnorePatterns: ['node_modules/(?!antd)/'],
   testEnvironment: 'jsdom',
   displayName: pkg.name,
 }
