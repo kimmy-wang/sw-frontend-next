@@ -6,8 +6,6 @@ import React from 'react'
 import { Alert as AntdAlert } from 'antd'
 import PropTypes from 'prop-types'
 
-import './index.less'
-
 export function Alert(props) {
   let { widgetConfig = {} } = props
   let { message, alertType, showIcon, closable, icon, description } = widgetConfig
