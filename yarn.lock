@@ -4234,7 +4234,7 @@ __metadata:
     antd: ~4.22.8
     autoprefixer: 10.4.13
     babel-jest: 29.2.2
-    babel-loader: 8.2.5
+    babel-loader: 8.3.0
     babel-plugin-import: 1.13.5
     classnames: 2.3.2
     css-loader: 6.7.1
@@ -4304,7 +4304,7 @@ __metadata:
     "@storybook/react": 6.5.13
     "@storybook/testing-library": 0.0.13
     "@svgr/webpack": 6.5.1
-    babel-loader: 8.2.5
+    babel-loader: 8.3.0
     eslint: 8.22.0
     eslint-config-prettier: 8.5.0
     eslint-plugin-prettier: 4.2.1
@@ -4367,7 +4367,7 @@ __metadata:
     "@testing-library/react": 12.1.5
     antd: ~4.22.8
     babel-jest: 29.2.2
-    babel-loader: 8.2.5
+    babel-loader: 8.3.0
     babel-plugin-import: 1.13.5
     css-loader: 6.7.1
     css-minimizer-webpack-plugin: 4.2.2
@@ -7725,7 +7725,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-loader@npm:8.2.5, babel-loader@npm:^8.0.0":
+"babel-loader@npm:8.3.0":
+  version: 8.3.0
+  resolution: "babel-loader@npm:8.3.0"
+  dependencies:
+    find-cache-dir: ^3.3.1
+    loader-utils: ^2.0.0
+    make-dir: ^3.1.0
+    schema-utils: ^2.6.5
+  peerDependencies:
+    "@babel/core": ^7.0.0
+    webpack: ">=2"
+  checksum: d48bcf9e030e598656ad3ff5fb85967db2eaaf38af5b4a4b99d25618a2057f9f100e6b231af2a46c1913206db506115ca7a8cbdf52c9c73d767070dae4352ab5
+  languageName: node
+  linkType: hard
+
+"babel-loader@npm:^8.0.0":
   version: 8.2.5
   resolution: "babel-loader@npm:8.2.5"
   dependencies:
